@@ -1,0 +1,9 @@
+* Requiremment
+** nodejs
+** npm
+
+* How to
+** npm init-y
+** npm install express
+** docker build -t nodejs-docker .
+** docker run -d -p 3000:3000 --name node-app nodejs-docker
